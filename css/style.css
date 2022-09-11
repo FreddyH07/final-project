@@ -1,5 +1,6 @@
 body {
-    background-image: url(https://rwaltz.com/storage/app/public/images/Ckeditor/Blockchain-2_1647424032.gif);
+  background-image: url(https://marketplace.canva.com/EAE_Ax2i3uA/1/0/1600w/canva-black-blue-modern-gaming-desktop-wallpaper-krCroHEUvf0.jpg);
+  background-size: cover;
 }
 
 
@@ -7,6 +8,7 @@ body {
 .header {
     color: white;
     text-align: center;
+    margin-top: 60px;
 }
 
 
@@ -16,13 +18,15 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(24, 23, 23);
+    position: fixed;
+    top: 0;
+    width: 100%;
   }
   
   li {
     float: left;
-    
-  }
+    }
   
   li a {
     display: block;
@@ -33,5 +37,48 @@ ul {
   }
   
   li a:hover {
-    background-color: #111;
+    background-color: rgb(75, 206, 211);
   }
+
+
+/* Section 1 */
+.section1 {
+  height: 400px;
+  width: 90%;
+  margin-left: 80px;
+  background-image: url(https://www.windowfilmdepot.com/wp-content/uploads/2018/12/fresno-window-film.jpg);
+  background-size: cover;
+  opacity: 0.7;
+}
+
+
+/* Footer */
+.footer {
+  height: 200px;
+  width: 90%;
+  margin-left: 80px;
+  background-color: gold;
+  opacity: 0.3;
+}
+
+/* Contact Section Pic */
+.contactuspic {
+  height: 400px;
+  width: 90%;
+  margin-left: 80px;
+  background-image: url(https://www.windowfilmdepot.com/wp-content/uploads/2018/12/fresno-window-film.jpg);
+  background-size: cover;
+  margin-top: 200px;
+}
+
+
+/* Section 1 Text */
+.section1text {
+  color: white;
+}
+
+.sec2text {
+  color: white;
+  margin-left: 80px;
+  
+}
