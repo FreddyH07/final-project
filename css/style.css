@@ -4,11 +4,12 @@ body {
 }
 
 
-
+/* Title Header */
 .header {
     color: white;
     text-align: center;
     margin-top: 60px;
+    font-size: 50px;
 }
 
 
@@ -41,18 +42,19 @@ ul {
   }
 
 
-/* Section 1 */
+/* Section 1 HomePage */
 .section1 {
-  height: 400px;
+  height: 450px;
   width: 90%;
   margin-left: 80px;
-  background-image: url(https://www.universitymds.com/wp-content/uploads/central_valley_ucsf_banner_image.jpg);
+  margin-top: 50px;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/006/292/430/non_2x/sci-fi-style-background-with-glowing-effects-abstract-digital-technology-background-free-vector.jpg);
   background-size: cover;
-  opacity: 0.7;
+  border-style: ridge;
 }
 
 
-/* Footer */
+/* Homepage index Footer */
 .footer {
   height: 200px;
   width: 90%;
@@ -63,22 +65,87 @@ ul {
 
 /* Contact Section Pic */
 .contactuspic {
-  height: 400px;
+  height: 300px;
   width: 90%;
-  margin-left: 80px;
-  background-image: url(https://www.windowfilmdepot.com/wp-content/uploads/2018/12/fresno-window-film.jpg);
+  margin-left: 85px;
+  margin-top: 55px;
+  background-image: url(https://www.universitymds.com/wp-content/uploads/central_valley_ucsf_banner_image.jpg);
   background-size: cover;
-  margin-top: 200px;
+  border-style: ridge;
 }
 
 
 /* Section 1 Text */
 .section1text {
   color: white;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 100px;
 }
 
-.sec2text {
-  color: white;
+
+/* Contact Footer */
+.contactfooter {
+  height: 400px;
+  width: 90%;
+  margin-left: 85px;
+  background-color: rgb(0, 255, 255);
+  opacity: 0.3;
+}
+
+
+/* About Page Product1 */
+.product1 {
+  height: 300px;
+  width: 300px;
   margin-left: 80px;
-  
+  display: inline-block;
+  background-image: url(https://mms-images.out.customink.com/mms/images/catalog/b47aea9253dc3683bb7c1aa2a8c22cd6/colors/242027/views/alt/front_medium_extended.jpg?autoNegate=1&design=djn0-00by-wu36&digest=0000000016&ixbg=%23ffffff&ixfm=jpeg&ixq=60&ixw=412&placeMax=1&placeMaxPct=0.8&placeUseProduct=1&placeUseView=front);
+  background-size: cover;
+  border-style: ridge;
+}
+
+/* About Page Product2 */
+.product2 {
+  height: 300px;
+  width: 300px;
+  margin-left: 50px;
+  display: inline-block;
+  background-image: url(https://i.etsystatic.com/19145744/r/il/20d5a1/2345900463/il_fullxfull.2345900463_8915.jpg);
+  background-size: cover;
+  border-style: ridge;
+}
+
+/* About Page Product3 */
+.product3 {
+  height: 300px;
+  width: 300px;
+  margin-left: 50px;
+  display: inline-block;
+  background-image: url(https://i0.wp.com/unitmask.com/wp-content/uploads/2020/12/custom-logo-design-portfolio-1-scaled.jpg?fit=1030%2C773&ssl=1);
+  background-size: contain;
+  border-style: ridge;
+}
+
+/* About Page Product4 */
+.product4 {
+  height: 300px;
+  width: 300px;
+  background-color: aqua;
+  margin-left: 50px;
+  display: inline-block;
+  background-image: url(https://sep.yimg.com/ay/licenseplateframes/premium-quality-heavy-license-plate-frames-imported-13.gif);
+  background-size: contain;
+  border-style: ridge;
+}
+
+
+/* About Footer */
+.aboutfooter {
+  height: 200px;
+  width: 90%;
+  background-color: aqua;
+  margin-left: 80px;
+  margin-top: 10px;
+  opacity: 0.7;
 }
