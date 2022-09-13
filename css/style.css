@@ -1,5 +1,5 @@
 body {
-  background-image: url(https://marketplace.canva.com/EAE_Ax2i3uA/1/0/1600w/canva-black-blue-modern-gaming-desktop-wallpaper-krCroHEUvf0.jpg);
+  background-image: url(/final-project/img/cool1.jpg);
   background-size: cover;
 }
 
@@ -11,6 +11,12 @@ body {
     margin-top: 60px;
     font-size: 40px;
     font-family: 'Press Start 2P', 'cursive';
+}
+
+/* Sick Customs LOGO */
+.LOGO {
+  height: 40px;
+  margin-left: 410px;
 }
 
 
@@ -48,7 +54,7 @@ ul {
   height: 450px;
   width: 90%;
   margin-left: 80px;
-  margin-top: 50px;
+  margin-top: 70px;
   background-image: url(https://static.vecteezy.com/system/resources/previews/006/292/430/non_2x/sci-fi-style-background-with-glowing-effects-abstract-digital-technology-background-free-vector.jpg);
   background-size: cover;
   border-style: ridge;
@@ -98,10 +104,10 @@ ul {
 
 /* About Page Product1 */
 .product1 {
-  height: 300px;
+  height: 250px;
   width: 300px;
-  margin-left: 85px;
-  margin-top: 55px;
+  margin-left: 80px;
+  margin-top: 50px;
   display: inline-block;
   background-image: url(https://mms-images.out.customink.com/mms/images/catalog/b47aea9253dc3683bb7c1aa2a8c22cd6/colors/242027/views/alt/front_medium_extended.jpg?autoNegate=1&design=djn0-00by-wu36&digest=0000000016&ixbg=%23ffffff&ixfm=jpeg&ixq=60&ixw=412&placeMax=1&placeMaxPct=0.8&placeUseProduct=1&placeUseView=front);
   background-size: cover;
@@ -110,9 +116,9 @@ ul {
 
 /* About Page Product2 */
 .product2 {
-  height: 300px;
+  height: 250px;
   width: 300px;
-  margin-left: 50px;
+  margin-left: 40px;
   display: inline-block;
   background-image: url(https://i.etsystatic.com/19145744/r/il/20d5a1/2345900463/il_fullxfull.2345900463_8915.jpg);
   background-size: cover;
@@ -121,9 +127,9 @@ ul {
 
 /* About Page Product3 */
 .product3 {
-  height: 300px;
+  height: 250px;
   width: 300px;
-  margin-left: 50px;
+  margin-left: 40px;
   display: inline-block;
   background-image: url(https://i0.wp.com/unitmask.com/wp-content/uploads/2020/12/custom-logo-design-portfolio-1-scaled.jpg?fit=1030%2C773&ssl=1);
   background-size: contain;
@@ -132,13 +138,13 @@ ul {
 
 /* About Page Product4 */
 .product4 {
-  height: 300px;
+  height: 250px;
   width: 300px;
-  background-color: aqua;
-  margin-left: 50px;
+  background-color: none;
+  margin-left: 40px;
   display: inline-block;
   background-image: url(https://sep.yimg.com/ay/licenseplateframes/premium-quality-heavy-license-plate-frames-imported-13.gif);
-  background-size: contain;
+  background-size: cover;
   border-style: ridge;
 }
 
@@ -147,20 +153,38 @@ ul {
 .aboutfooter {
   height: 200px;
   width: 90%;
-  background-color: aqua;
+  color: aqua;
   margin-left: 80px;
   margin-top: 10px;
-  opacity: 0.7;
+  border-top-style: double;
 }
 
 
 /* Decal Install Video About Page */
 .howtovideoinstall {
   margin-left: 80px;
+  margin-top: 10px;
+}
+
+/* Large Logo About Page */
+.largelogo {
+  margin-left: 220px;
+  height: 200px;
 }
 
 
 /* How To Clean Shirt Video */
 .howtocleanshirt {
-  margin-left: 770px;
+  margin-left: 216px;
+  margin-top: 10px;
+}
+
+/* Footer Links */
+.footerlinks {
+  display: inline-block;
+  margin-left: 220px;
+}
+
+a:visited {
+  color: aqua;
 }
