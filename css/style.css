@@ -74,18 +74,27 @@ ul {
 /* Contact Section Pic */
 .contactuspic {
   height: 300px;
-  width: 90%;
+  width: 89.7%;
   margin-left: 80px;
   margin-top: 75px;
-  background-image: url(/final-project/img/fresno-window-film.jpg);
+  background-image: url(/final-project/img/central_valley_ucsf_banner_image.jpg);
   background-size: cover;
   border-style: ridge;
+}
+
+/* Contact Pic Text */
+.contactpictext {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Permanent Marker', 'cursive';
 }
 
 /* Google Map */
 .googlemap {
   margin-top: 10px;
   margin-left: 80px;
+  float: left;
 }
 
 
@@ -161,10 +170,9 @@ ul {
   width: 90%;
   color: aqua;
   margin-left: 80px;
-  margin-top: 10px;
+  margin-top: 25px;
   border-top-style: double;
 }
-
 
 /* Decal Install Video About Page */
 .howtovideoinstall {
@@ -241,7 +249,7 @@ a:visited {
 }
 
 
-/* spacebetweenfooterandreview */
+/* spacebetweenfooterandreviewindex */
 .spacebetweenfooterandreview {
   height: 125px;
   width: 90%;
@@ -261,16 +269,16 @@ a:visited {
   input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(233, 60, 47);
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
-    margin-bottom: 16px;
+    margin-bottom: 45px;
     resize: vertical;
   }
   
   input[type=submit] {
-    background-color: #61ece5;
+    background-color: #c51f1f;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -279,25 +287,24 @@ a:visited {
   }
   
   input[type=submit]:hover {
-    background-color: #5cf5e8;
+    background-color: rgb(17, 192, 192);
   }
   
   .container {
+    display: inline-block;
     border-radius: 5px;
-    background-color: #f2f2f23d;
+    background-color: #48cddf;
     padding: 20px;
-    height: 400px;
-    width: 450px;
-    float: right;
-    margin-right: 80px;
+    height: 460px;
+    width: 705px;
     margin-top: 10px;
+    margin-left: 10px;
   }
 
-
-  .spacebetweencontactandfooter {
-    height: 10px;
-    width: 90%;
-    background-color: aqua;
-    margin-top: 200px;
-    clear: both;
+  /* Footer Text */
+  .footertext {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-family: 'Permanent Marker', 'cursive';
   }
