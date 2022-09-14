@@ -1,6 +1,6 @@
 body {
   background-image: url(/final-project/img/cool1.jpg);
-  background-size: cover;
+  background-size: contain;
 }
 
 
@@ -75,11 +75,17 @@ ul {
 .contactuspic {
   height: 300px;
   width: 90%;
-  margin-left: 85px;
+  margin-left: 80px;
   margin-top: 75px;
-  background-image: url(https://www.universitymds.com/wp-content/uploads/central_valley_ucsf_banner_image.jpg);
+  background-image: url(/final-project/img/fresno-window-film.jpg);
   background-size: cover;
   border-style: ridge;
+}
+
+/* Google Map */
+.googlemap {
+  margin-top: 10px;
+  margin-left: 80px;
 }
 
 
@@ -188,3 +194,64 @@ ul {
 a:visited {
   color: aqua;
 }
+
+/* Customer Review1 */
+.review1 {
+  height: 200px;
+  width: 400px;
+  display: inline-block;
+  margin-left: 80px;
+  margin-top: 10px;
+  border-style: ridge;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Permanent Marker', 'cursive';
+  background-color: black;
+}
+
+/* Customer Review2 */
+.review2 {
+  height: 200px;
+  width: 400px;
+  display: inline-block;
+  margin-left: 70px;
+  border-style: ridge;
+  margin-top: 10px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Permanent Marker', 'cursive';
+  background-color: black
+}
+
+/* Customer Review3 */
+.review3 {
+  height: 200px;
+  width: 400px;
+  display: inline-block;
+  margin-left: 60px;
+  border-style: ridge;
+  margin-top: 20px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Permanent Marker', 'cursive';
+  background-color: black;
+}
+
+
+/* spacebetweenfooterandreview */
+.spacebetweenfooterandreview {
+  height: 125px;
+  width: 90%;
+}
+
+/* Customer Reviews Title */
+.customerreviewstitle {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Permanent Marker', 'cursive';
+  margin-top: 10px;
+  }
